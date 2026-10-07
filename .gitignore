@@ -1,0 +1,11 @@
+node_modules/
+.test-tmp/
+data/
+.env
+.env.*
+!.env.example
+*.log
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

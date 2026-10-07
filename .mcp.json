@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "flow-memory": {
+      "command": "node",
+      "args": ["server.js", "--stdio"],
+      "cwd": ".",
+      "startup_timeout_sec": 20,
+      "tool_timeout_sec": 60
+    }
+  }
+}

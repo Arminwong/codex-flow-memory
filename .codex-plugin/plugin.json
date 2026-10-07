@@ -1,0 +1,7 @@
+{
+  "name": "flow-memory",
+  "version": "0.9.3",
+  "description": "在 AI 对话旁记录、检查、复盘和复现多步骤工作流程。",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

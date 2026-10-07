@@ -1,0 +1,12 @@
+interface:
+  display_name: "流程记忆"
+  short_description: "自动记录、复盘并复现多步骤 AI 工作流程"
+  brand_color: "#7456E8"
+  default_prompt: "使用 $capture-workflow 自动记录并展示当前对话的工作流程。"
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "flow-memory"
+      description: "流程记忆面板与步骤状态存储"
