@@ -1,9 +1,9 @@
 {
-  "name": "flow-memory-plugin",
+  "name": "codex-flow-memory",
   "version": "0.9.3",
   "private": true,
   "type": "module",
-  "description": "A conversation-side workflow memory panel for ChatGPT and Codex-assisted work.",
+  "description": "A conversation-side workflow memory plugin for Codex-assisted work.",
   "scripts": {
     "start": "node server.js",
     "start:stdio": "node server.js --stdio",
