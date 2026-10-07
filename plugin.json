@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "flow-memory",
+  "version": "0.9.3",
+  "description": "在 AI 对话旁记录、检查、复盘和复现多步骤工作流程。",
+  "author": {
+    "name": "Flow Memory"
+  },
+  "keywords": ["workflow", "memory", "process", "review"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "流程记忆",
+        "shortDescription": "记录、复盘并复现 AI 协作流程",
+        "longDescription": "把每段对话中的主步骤、次级步骤、注意事项、输入产出和异常来源整理为专属的右侧流程图谱。",
+        "developerName": "Flow Memory",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "brandColor": "#7456E8",
+        "defaultPrompt": ["打开流程记忆面板。", "开始记录这项工作的流程。"]
+      }
+    }
+  }
+}
